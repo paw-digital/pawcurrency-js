@@ -104,8 +104,8 @@ export function deriveAddress(
   const publicKeyBytes = hexToByteArray(publicKey)
   const paddedPublicKeyBytes = hexToByteArray(publicKey)
 
-  let prefix = 'xrb_'
-  if (params.useNanoPrefix === true) prefix = 'nano_'
+  let prefix = 'paw_'
+  if (params.useNanoPrefix === true) prefix = 'paw_'
 
   const encodedPublicKey = encodeNanoBase32(paddedPublicKeyBytes)
 

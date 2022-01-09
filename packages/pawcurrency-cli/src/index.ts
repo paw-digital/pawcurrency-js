@@ -442,6 +442,6 @@ yargs
   .strict()
   .help()
   .epilogue(
-    'for more information, find the sources at http://git.io/nanocurrency-js'
+    'for more information, find the sources at http://git.io/pawcurrency-js'
   )
   .wrap(null).argv

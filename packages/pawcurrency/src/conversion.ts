@@ -20,6 +20,10 @@ export enum Unit {
   Nano = 'Nano',
   /** 10^30 raw */
   NANO = 'NANO',
+  /** 10^27 raw */
+  Nano = 'Paw',
+  /** 10^27 raw */
+  NANO = 'PAW',
   /** 10^33 raw */
   KNano = 'KNano',
   /** 10^36 raw */
@@ -33,6 +37,8 @@ const ZEROES: { [unit in keyof typeof Unit]: number } = {
   knano: 27,
   Nano: 30,
   NANO: 30,
+  Paw: 27,
+  PAW: 27,
   KNano: 33,
   MNano: 36,
 }

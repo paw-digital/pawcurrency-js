@@ -1,6 +1,6 @@
 {
-  "name": "nanocurrency",
-  "description": "A toolkit for the Nano cryptocurrency, allowing you to derive keys, generate seeds, hashes, signatures, proofs of work and blocks.",
+  "name": "pawcurrency",
+  "description": "A toolkit for the PAW cryptocurrency, allowing you to derive keys, generate seeds, hashes, signatures, proofs of work and blocks.",
   "version": "2.5.0",
   "author": {
     "name": "Marvin ROGER",
@@ -14,7 +14,7 @@
     "util": false,
     "./dist/nanocurrency.cjs.js": "./dist/nanocurrency.umd.js"
   },
-  "bugs": "https://github.com/marvinroger/nanocurrency-js/issues",
+  "bugs": "https://github.com/paw-digital/pawcurrency-js/issues",
   "dependencies": {
     "bignumber.js": "^9.0.0",
     "blakejs": "^1.1.0"
@@ -37,7 +37,7 @@
   "files": [
     "dist/"
   ],
-  "homepage": "https://github.com/marvinroger/nanocurrency-js/tree/master/packages/nanocurrency",
+  "homepage": "https://github.com/paw-digital/pawcurrency-js/tree/master/packages/pawcurrency",
   "keywords": [
     "crypto",
     "currency",
@@ -51,7 +51,7 @@
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marvinroger/nanocurrency-js.git"
+    "url": "https://github.com/paw-digital/pawcurrency-js.git"
   },
   "scripts": {
     "build:dev": "yarn build:dev:assembly && yarn build:dev:js",
