@@ -20,7 +20,7 @@ export function parseAddress(address: {}): ParseAddressResult {
   const invalid = { valid: false, publicKeyBytes: null }
   if (
     !checkString(address) ||
-    !/^(paw)[13][13-9a-km-uw-z]{59}$/.test(address as string)
+    !/^(paw_|adia_)[13][13-9a-km-uw-z]{59}$/.test(address as string)
   ) {
     return invalid
   }

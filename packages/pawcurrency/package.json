@@ -1,7 +1,7 @@
 {
   "name": "pawcurrency",
-  "description": "A toolkit for the PAW cryptocurrency, allowing you to derive keys, generate seeds, hashes, signatures, proofs of work and blocks.",
-  "version": "2.5.0",
+  "description": "A toolkit for the PAW/ADIA cryptocurrency, allowing you to derive keys, generate seeds, hashes, signatures, proofs of work and blocks.",
+  "version": "2.5.3",
   "author": {
     "name": "Marvin ROGER",
     "email": "dev@marvinroger.fr",
@@ -17,7 +17,8 @@
   "bugs": "https://github.com/paw-digital/pawcurrency-js/issues",
   "dependencies": {
     "bignumber.js": "^9.0.0",
-    "blakejs": "^1.1.0"
+    "blakejs": "^1.1.0",
+    "pawcurrency": "^2.5.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",

@@ -6,7 +6,8 @@
   "dependencies": {
     "@marvinroger/fusee": "^3.3.0",
     "lerna": "^3.13.1",
+    "pawcurrency": "file:packages/pawcurrency",
     "typescript": "^3.3.3333"
   },
-  "name": "nanocurrency-workspace"
+  "name": "pawcurrency-workspace"
 }
